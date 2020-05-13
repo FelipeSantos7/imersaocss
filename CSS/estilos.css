@@ -1,0 +1,38 @@
+body { /* declarando o body é possivel editar todo o corpo mudando a a cor de fundo ou add img */
+    background-image: url('https://macmagazine.uol.com.br/wp-content/uploads/2018/06/04-wallpaper_macos-mojave.jpg'); /* adiciona img da web ao fundo */
+    background-size: auto 100vh; /* 100vh o 'v' significa viewport = janela de exibição e 'h' heigth = altura ou 'w' = widgth */
+    font-family: Arial; /* muda a fonte do texto */
+    height: 100vh; /*  */
+  }
+  
+  .menu { /* chama a classe que será editada */
+    background-color: white; /* adiciona cor de fundo a classe selecionada */
+  }
+  
+  .menu li {
+    list-style: none; /* retira os pontinhos da lista */
+  }
+  
+  .menu ul {
+    display: flex; /* coloca uma li do lado da outra */
+    justify-content: space-around; /* space-between coloca espaçamento apenas na coluna do meio, já o space-around coloca em todas as colunas*/
+  }
+  
+  a {
+    color: teal; /* altera a colar da letra */
+    text-decoration: none; /* retira o underline */
+  }
+  
+  a:hover { /* pseudo classe */
+    text-decoration: underline; /* coloca o underline ao passar o mouse por cima */
+  }
+  
+  .site-subtitle,
+  .site-title { /* se uma class for utilizar os mesmos elementos de outra class separar apenas por ','  */
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .site-subtitle { /* editar elemento a parte */
+    font-style: italic;
+  }  
